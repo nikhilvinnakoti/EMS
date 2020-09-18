@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="419" height="447.049" viewBox="0 0 419 447.049">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="366" height="227" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="361" height="19" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1253" data-name="Group 1253" transform="translate(-3215 -4149.331)">
+    <g id="Date_Range_Picker_3_" data-name="Date Range Picker (3)" transform="translate(3215 4149.331)">
+      <g id="BG" fill="#fff">
+        <path d="M 418.5 446.54931640625 L 0.5 446.54931640625 L 0.5 0.4999915361404419 L 418.5 0.4999915361404419 L 418.5 446.54931640625 Z" stroke="none"/>
+        <path d="M 1 1 L 1 446.04931640625 L 418 446.04931640625 L 418 1 L 1 1 M 0 0 L 419 0 L 419 447.04931640625 L 0 447.04931640625 L 0 0 Z" stroke="none" fill="#f0f0f7"/>
+      </g>
+      <circle id="Ellipse_167" data-name="Ellipse 167" cx="18" cy="18" r="18" transform="translate(307 217.669)" fill="#d1e9c9"/>
+      <circle id="Ellipse_166" data-name="Ellipse 166" cx="18" cy="18" r="18" transform="translate(249 165.669)" fill="#ffd2d2"/>
+      <circle id="Ellipse_168" data-name="Ellipse 168" cx="18" cy="18" r="18" transform="translate(136 217.669)" fill="#f0e3ff"/>
+      <g id="January" transform="translate(19 22.654)">
+        <g id="date" transform="translate(11 100.015)" clip-path="url(#clip-path)">
+          <g transform="translate(-357 -336)">
+            <text id="_-" data-name="-" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-2.413" y="0">-</tspan></text>
+          </g>
+          <g transform="translate(-300 -336)">
+            <text id="_1" data-name="1" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-4.288" y="0">1</tspan></text>
+          </g>
+          <g transform="translate(-243 -336)">
+            <text id="_2" data-name="2" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-4.288" y="0">2</tspan></text>
+          </g>
+          <g transform="translate(-186 -336)">
+            <text id="_3" data-name="3" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-4.288" y="0">3</tspan></text>
+          </g>
+          <g transform="translate(-129 -336)">
+            <text id="_4" data-name="4" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-4.288" y="0">4</tspan></text>
+          </g>
+          <g transform="translate(-72 -336)">
+            <text id="_5" data-name="5" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-4.288" y="0">5</tspan></text>
+          </g>
+          <g transform="translate(-15 -336)">
+            <text id="_6" data-name="6" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-4.288" y="0">6</tspan></text>
+          </g>
+          <g transform="translate(-357 -284)">
+            <text id="_7" data-name="7" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-4.288" y="0">7</tspan></text>
+          </g>
+          <g transform="translate(-300 -284)">
+            <text id="_8" data-name="8" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-4.288" y="0">8</tspan></text>
+          </g>
+          <g transform="translate(-243 -284)">
+            <text id="_9" data-name="9" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-4.288" y="0">9</tspan></text>
+          </g>
+          <g transform="translate(-186 -284)">
+            <text id="_10" data-name="10" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-8.577" y="0">10</tspan></text>
+          </g>
+          <g transform="translate(-129 -284)">
+            <text id="_11" data-name="11" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-8.577" y="0">11</tspan></text>
+          </g>
+          <g transform="translate(-72 -284)">
+            <text id="_12" data-name="12" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-8.577" y="0">12</tspan></text>
+          </g>
+          <g transform="translate(-15 -284)">
+            <text id="_13" data-name="13" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-8.577" y="0">13</tspan></text>
+          </g>
+          <g transform="translate(-357 -232)">
+            <text id="_14" data-name="14" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-8.577" y="0">14</tspan></text>
+          </g>
+          <g transform="translate(-300 -232)">
+            <text id="_15" data-name="15" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-8.577" y="0">15</tspan></text>
+          </g>
+          <g transform="translate(-243 -232)">
+            <text id="_16" data-name="16" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-8.577" y="0">16</tspan></text>
+          </g>
+          <g transform="translate(-186 -232)">
+            <text id="_17" data-name="17" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-8.577" y="0">17</tspan></text>
+          </g>
+          <g transform="translate(-129 -232)">
+            <text id="_18" data-name="18" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-8.577" y="0">18</tspan></text>
+          </g>
+          <g transform="translate(-72 -232)">
+            <text id="_19" data-name="19" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-8.577" y="0">19</tspan></text>
+          </g>
+          <g transform="translate(-15 -232)">
+            <text id="_20" data-name="20" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-8.577" y="0">20</tspan></text>
+          </g>
+          <g transform="translate(-357 -180)">
+            <text id="_21" data-name="21" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-8.577" y="0">21</tspan></text>
+          </g>
+          <g transform="translate(-300 -180)">
+            <text id="_22" data-name="22" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-8.577" y="0">22</tspan></text>
+          </g>
+          <g transform="translate(-243 -180)">
+            <text id="_23" data-name="23" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-8.577" y="0">23</tspan></text>
+          </g>
+          <g transform="translate(-186 -180)">
+            <text id="_24" data-name="24" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-8.577" y="0">24</tspan></text>
+          </g>
+          <g transform="translate(-129 -180)">
+            <text id="_25" data-name="25" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-8.577" y="0">25</tspan></text>
+          </g>
+          <g transform="translate(-72 -180)">
+            <text id="_26" data-name="26" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-8.577" y="0">26</tspan></text>
+          </g>
+          <g transform="translate(-15 -180)">
+            <text id="_27" data-name="27" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-8.577" y="0">27</tspan></text>
+          </g>
+          <g transform="translate(-357 -128)">
+            <text id="_28" data-name="28" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-8.577" y="0">28</tspan></text>
+          </g>
+          <g transform="translate(-300 -128)">
+            <text id="_29" data-name="29" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-8.577" y="0">29</tspan></text>
+          </g>
+          <g transform="translate(-243 -128)">
+            <text id="_30" data-name="30" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-8.577" y="0">30</tspan></text>
+          </g>
+          <g transform="translate(-186 -128)">
+            <text id="_31" data-name="31" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-8.577" y="0">31</tspan></text>
+          </g>
+          <g transform="translate(-129 -128)">
+            <text id="_--2" data-name="-" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-2.413" y="0">-</tspan></text>
+          </g>
+          <g transform="translate(-72 -128)">
+            <text id="_--3" data-name="-" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-2.413" y="0">-</tspan></text>
+          </g>
+          <g transform="translate(-15 -128)">
+            <text id="_--4" data-name="-" transform="translate(366 351)" fill="#43425d" font-size="15" font-family="OpenSans, Open Sans"><tspan x="-2.413" y="0">-</tspan></text>
+          </g>
+        </g>
+        <g id="today" transform="translate(114.36 92)">
+          <text id="_2-2" data-name="2" transform="translate(19.64 23.015)" fill="#3b86ff" font-size="15" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="-4.281" y="0">2</tspan></text>
+        </g>
+        <path id="Path_295" data-name="Path 295" d="M119.265,2938.743H497.813" transform="translate(-117.765 -2858.111)" fill="none" stroke="#e9e9f0" stroke-width="1"/>
+        <path id="Path_2654" data-name="Path 2654" d="M119.265,2938.743H497.813" transform="translate(-117.765 -2592.111)" fill="none" stroke="#e9e9f0" stroke-width="1"/>
+        <g id="days" transform="translate(13 50.015)" clip-path="url(#clip-path-2)">
+          <g transform="translate(-306 -286)">
+            <text id="Su" transform="translate(314 301)" fill="#a3a6b4" font-size="15" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-8.884" y="0">Su</tspan></text>
+          </g>
+          <g transform="translate(-249 -286)">
+            <text id="Mo" transform="translate(314 301)" fill="#a3a6b4" font-size="15" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-11.503" y="0">Mo</tspan></text>
+          </g>
+          <g transform="translate(-192 -286)">
+            <text id="Tu" transform="translate(314 301)" fill="#a3a6b4" font-size="15" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-9.005" y="0">Tu</tspan></text>
+          </g>
+          <g transform="translate(-135 -286)">
+            <text id="We" transform="translate(314 301)" fill="#a3a6b4" font-size="15" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-11.415" y="0">We</tspan></text>
+          </g>
+          <g transform="translate(-78 -286)">
+            <text id="Th" transform="translate(314 301)" fill="#a3a6b4" font-size="15" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-9.005" y="0">Th</tspan></text>
+          </g>
+          <g transform="translate(-21 -286)">
+            <text id="Fr" transform="translate(314 301)" fill="#a3a6b4" font-size="15" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-7.225" y="0">Fr</tspan></text>
+          </g>
+          <g transform="translate(36 -286)">
+            <text id="Sa" transform="translate(314 301)" fill="#a3a6b4" font-size="15" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-8.474" y="0">Sa</tspan></text>
+          </g>
+        </g>
+        <g id="circle" transform="translate(0 92)">
+          <circle id="Ellipse_46" data-name="Ellipse 46" cx="18" cy="18" r="18" transform="translate(0 0.015)" fill="#fff"/>
+          <circle id="Ellipse_47" data-name="Ellipse 47" cx="18" cy="18" r="18" transform="translate(230 190.015)" fill="#fff"/>
+          <circle id="Ellipse_48" data-name="Ellipse 48" cx="18" cy="18" r="18" transform="translate(295 190.015)" fill="#fff"/>
+          <circle id="Ellipse_49" data-name="Ellipse 49" cx="18" cy="18" r="18" transform="translate(344 190.015)" fill="#fff"/>
+        </g>
+        <g id="previous" transform="translate(14.5 2.389)">
+          <path id="Path_294" data-name="Path 294" d="M1811.182,4362.342l-7.567,6.731,7.567,6.2" transform="translate(-1803.616 -4362.342)" fill="none" stroke="#808495" stroke-width="2"/>
+        </g>
+        <text id="January_2018" data-name="January 2018" transform="translate(191 15.015)" fill="#43425d" font-size="15" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-46.791" y="0">January 2018</tspan></text>
+        <g id="next" transform="translate(359.067 2.389)">
+          <path id="Path_294-2" data-name="Path 294" d="M1803.616,4362.342l7.57,6.731-7.57,6.2" transform="translate(-1803.616 -4362.342)" fill="none" stroke="#808495" stroke-width="2"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_1252" data-name="Group 1252" transform="translate(3225.159 4537.964)">
+      <g id="Group_1245" data-name="Group 1245" transform="translate(94.517)">
+        <g id="Rectangle_202" data-name="Rectangle 202" transform="translate(8.324)" fill="#ffd2d2" stroke="#fdbcbc" stroke-width="1">
+          <rect width="21.926" height="21.926" rx="2" stroke="none"/>
+          <rect x="0.5" y="0.5" width="20.926" height="20.926" rx="1.5" fill="none"/>
+        </g>
+        <text id="Absent" transform="translate(0.324 37.424)" fill="#1f1f1f" font-size="12" font-family="Roboto-Regular, Roboto" opacity="0.6"><tspan x="0" y="0">Absent</tspan></text>
+      </g>
+      <g id="Group_1246" data-name="Group 1246" transform="translate(185.188)">
+        <g id="Rectangle_203" data-name="Rectangle 203" transform="translate(11.652)" fill="#f0e3ff" stroke="#e2c9ff" stroke-width="1">
+          <rect width="21.926" height="21.926" rx="2" stroke="none"/>
+          <rect x="0.5" y="0.5" width="20.926" height="20.926" rx="1.5" fill="none"/>
+        </g>
+        <text id="Half_Day" data-name="Half Day" transform="translate(-0.347 37.424)" fill="#1f1f1f" font-size="12" font-family="Roboto-Regular, Roboto" opacity="0.6"><tspan x="0" y="0">Half Day</tspan></text>
+      </g>
+      <g id="Group_1247" data-name="Group 1247" transform="translate(281.841)">
+        <g id="Rectangle_573" data-name="Rectangle 573" fill="#d1e9c9" stroke="#9ae2ff" stroke-width="1">
+          <rect width="21.926" height="21.926" rx="2" stroke="none"/>
+          <rect x="0.5" y="0.5" width="20.926" height="20.926" rx="1.5" fill="none"/>
+        </g>
+        <text id="OD" transform="translate(3 37.424)" fill="#1f1f1f" font-size="12" font-family="Roboto-Regular, Roboto" opacity="0.6"><tspan x="0" y="0">OD</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

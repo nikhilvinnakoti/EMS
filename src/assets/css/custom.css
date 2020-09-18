@@ -1,0 +1,1011 @@
+
+/************************************
+    Added by BABAN HOME PAGE
+*************************************/    
+.row{
+    margin: 0;
+}
+.text-blue{
+    color: #52C6D9 !important;
+    opacity: 1 !important;
+}
+
+.chk-time{
+    color:#52C6D9;
+    font-weight: 600;
+}
+
+.atte-detl-heading{
+    border-bottom:1px solid rgba(112, 112, 112, 0.2);
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.atte-detl-heading h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.atte-detl-heading i {
+    float: left;
+    font-size: 20px;
+    margin-right: 15px;
+    color: #52C6D9;
+}
+.atte-detl-info{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.atte-detl-info .atte-dtl-inner h6{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.atte-detl-info .atte-dtl-inner p {
+    margin: 20px 0;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    color: #000;
+    opacity: 0.5;
+}
+/* .attendance-details{} */
+
+.view-all-but {
+    border-top: 1px solid rgba(112, 112, 112, 0.2);
+    padding-top: 15px;
+}
+
+.blue-btn {
+    color: #52C6D9 !important;
+    font-size: 16px;
+    font-weight: 600;
+    float: right;
+}
+.bday-heading {
+    background: linear-gradient(to right, #B98BFF , #52C6D9);
+    margin: -20px -20px 0 -20px;
+    border-radius: 5px 5px 0 0;
+}
+.bday-heading h2 {
+    font-size: 18px;
+    color: #fff;
+    padding: 20px;
+}
+.bday-heading h2 i {
+    margin-right: 15px;
+    font-size: 22px;
+}
+
+.bday-main-list .bday-img{
+    width: 60px;
+    margin-right: 15px;
+}
+
+.bday-main-list  .bday-wish-name{
+    width: 68%;
+}
+.bday-main-list .bday-wish-name h5 {
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.bday-main-list  .bday-wish-name h3{
+    font-size: 18px;
+}
+
+.bday-list .bday-main-list{
+    /* border-bottom: 1px solid #ccc;
+    margin-bottom: 15px; */
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+.todays-thought p {
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 5px;
+    font-style: italic;
+    font-weight: 700;
+}
+.new-and-event>.bday-heading {
+    background: linear-gradient(to right, #F579A5 , #FFAC83);
+}
+.pcoded-header.header-blue .dropdown-menu {
+    color: #373a3c;
+    border: 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/************************************
+            LOGIN PAGE
+************************************/            
+.main-login{
+    background: #ecf0f5 !important;
+}
+.login-container{
+    margin: 50px;
+    border-radius: 10px;
+    height: 82vh !important;
+}
+
+.main-login.h-100 {
+    height: 86% !important;
+}
+
+.global-container {
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background: #fff url(../images/ems-login-bg.svg) no-repeat left bottom;
+    background-size: 55%;
+}
+
+.btn-primary {
+    background-color: #036eb5;
+    border-color: #036eb5;
+}
+
+.btn-primary:hover {
+    background-color: #025083;
+    border-color: #025083;
+    color: #fff;
+}
+
+.global-container form {
+    padding-top: 10px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.global-container .login-form .btn {
+    background: #52C6D9;
+    text-transform: uppercase;
+    border: none;
+}
+
+.global-container .login-form .card-title h5 {
+    font-size: 28px;
+    color: #fff;
+    display: block;
+    text-align: left;
+}
+
+.global-container .login-form .card-title {
+    font-weight: 300;
+}
+
+.global-container .login-form label {
+    color: #AEAEAE;
+    font-size: 16px;
+}
+
+.forgot-pass a {
+    font-size: 16px;
+    color: #AEAEAE;
+}
+
+.global-container .login-form .card-title img {
+    height: 40px;
+}
+
+.global-container .login-form .btn {
+    font-size: 16px;
+    margin-top: 30px;
+    padding: 8px;
+}
+
+.global-container .login-form .form-control {
+    font-size: 14px;
+    color: #6c6c6c;
+    padding: 10px 15px;
+}
+
+.global-container .login-form .form-group label {
+    font-size: 14px;
+}
+
+.global-container .login-form .form-control::placeholder {
+    opacity: 0.3;
+}
+
+.global-container .login-form {
+    width: 370px;
+    margin: 50px 50px 50px auto;
+    float: right;
+    border: none;
+    background: #002D5A;
+}
+
+.sign-up {
+    text-align: center;
+    padding: 20px 0 0;
+}
+.forgot-pass a{
+    font-size: 14px;
+}
+.login-logo {
+    position: absolute;
+    top: 7%;
+    left: 6%;
+}
+.login-logo img {
+    width: 60%;
+}
+
+
+/***********************************
+    DAILY ATTENDANCE DETAILS
+************************************/    
+
+.unread-emails .email-icon {
+    float: left;
+    width: 52px;
+    margin-right: 20px;
+}
+.unread-emails .email-icon i{
+    font-size: 52px;
+    color: #52C6D9;
+}
+.unread-emails .unread-email-info {
+    float: left;
+    width: 75%;
+}
+.unread-emails .unread-email-info h5 {
+    font-size: 18px;
+    color: #888888;
+    margin-bottom: 0;
+}
+.unread-emails .unread-email-info h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 0;
+}
+
+
+.quick-links-info ul{
+    margin:0px;
+    padding: 0;
+}
+.quick-links-info ul li{
+    list-style-type: none;
+}
+.quick-links-info ul li a{
+    padding: 15px 0 0;
+    display: block;
+    font-size: 14px;
+    color: #888888;
+    font-weight: 500;
+}
+.quick-links-info ul li a:hover{
+    color: #52C6D9;
+    
+}
+
+.event-info {
+    overflow: hidden;
+    border-bottom: 1px solid rgba(112, 112, 112, 0.2);
+    padding: 15px 0 13px;
+}
+
+.event-info:last-child{
+    border: 0px;
+    padding-bottom: 0;
+}
+
+.event-info .event-icon{
+    float: left;
+    width: 42px;
+    margin-right: 15px;
+}
+.event-info .event-icon i {
+    font-size: 42px;
+    color: #707070;
+}
+.event-info .event-main-info{
+    float: left;
+}
+.event-info .event-main-info h6 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+}
+.event-info .event-main-info p {
+    font-size: 14px;
+    margin: 0;
+    font-style: italic;
+}
+
+
+
+.tab-input-controls {
+    display: flex;
+    align-items: flex-end;
+    justify-content: start;
+    margin-top: 20px;
+}
+.tab-input-controls label{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.tab-input-controls .input-group-custom {
+    align-items: center;
+    position: relative;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.tab-input-controls .input-group-custom i {
+    position: absolute;
+    right: 10px;
+    z-index: 1;
+    font-size: 16px;
+    color: #707070;;
+}
+.tab-input-controls .form-control {
+    border-radius: 0;
+    font-size: 14px;
+    color: #959595;
+    padding-right: 35px;
+}
+.show-but button {
+    width: 100%;
+    background: #52C6D9 !important;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px 0 !important;
+    font-weight: 500;
+}
+.show-but button:hover{
+    border: 1px solid #52C6D9;
+    color: #52C6D9;
+    background: #fff !important;
+    padding: 10px 0 !important;
+}
+
+.daily-attendance .daily-atte-inner .atte-detl-heading {
+    border-bottom:none;
+    border-top: 1px solid rgba(112, 112, 112, 0.2);  
+    margin-top: 30px;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.daily-attendance .daily-atte-inner .atte-detl-heading h2 {
+    float: left;
+    margin: 12px 0 0 0;
+}
+.daily-attendance .daily-atte-inner .atte-detl-heading .show-but button {
+    padding: 10px 30px !important;
+}
+
+.daily-atte-heading.daily-atte-commen {
+    background: #F7F7F7;
+    padding: 15px;
+    margin-top: 25px;
+}
+
+.daily-atte-heading.daily-atte-commen ul li{
+    font-weight: 600;
+}
+.daily-atte-commen ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.daily-atte-commen ul li{
+    list-style-type: none;
+    font-size: 16px;
+}
+
+.daily-atte-dly-info.daily-atte-commen {
+    padding: 15px;
+}
+.daily-atte-dly-info.daily-atte-commen ul li{
+    font-weight: 500;
+    color: #707070;
+    font-size: 14px;
+}
+
+.daily-atte-commen ul li.date {
+    width: 100px;
+}
+.daily-atte-commen ul li.in-time {
+    width: 150px;
+}
+.daily-atte-commen ul li.out-time {
+    width: 150px;
+}
+.daily-atte-commen ul li.working-hours {
+    width: 160px;
+}
+.daily-atte-commen ul li.status {
+    width: 180px;
+}
+
+
+
+/***************************************
+    Added by Preetam 6/04/2020 
+***************************************/
+/***********************
+    attendance details page  
+************************/
+.att-annual-status ul {
+    padding: 5px 15px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    background: #E9F2FF;
+    list-style-type: none;
+}
+
+.att-annual-status ul li {
+    width: 25%;
+}
+
+.att-annual-status ul li span {
+    font-size: 12px;
+}
+
+.att-annual-status ul li h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.att-annual-status ul li+li {
+    border-left: 1px solid #ccc;
+}
+
+.att-annual-status ul li h5.remaining {
+    color: #109FD5;
+}
+
+.att-annual-status ul li h5.taken {
+    color: #A9CCFF;
+}
+
+.att-annual-status ul li h5.applied {
+    color: #A3A0FB;
+}
+
+.att-annual-status ul li h5.pending {
+    color: #E22525;
+}
+
+.checkin-checkout-table .table thead th {
+    color: #1F1F1F;
+    background: #fff;
+}
+
+.checkin-checkout-table .table tbody tr td {
+    font-size: 12px;
+    padding: 8px 14px;
+    color: #6c6c6c;
+    font-weight: 500;
+}
+
+.checkin-checkout-table .table tbody tr td .present {
+    color: #52C6D9;
+}
+
+.checkin-checkout-table .table tbody tr td .od {
+    color: #52DB76;
+    font-weight: 600;
+
+}
+
+.checkin-checkout-table .table tbody tr td .abs {
+    color: #E22525;
+    font-weight: 600;
+}
+
+label {
+    font-weight: 500;
+}
+
+
+/***********************
+    Personal details page  
+************************/
+
+/* Personal details heading */
+.page-heading-main h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.peronal-details .user-info-header {
+    display: flex;
+    border: 1px solid #dcdcdc;
+    padding: 20px;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.peronal-details .user-info-header .user-img img {
+    border-radius: 100%;
+    height: 90px;
+    object-fit: cover;
+}
+
+.peronal-details .user-info-header .user-det h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.peronal-details .user-info-header .user-det span {
+    color: #52C6D9;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.peronal-details label {
+    font-weight: 600;
+    color: #333;
+}
+
+.user-all-det .user-det-block .user-det-row p {
+    margin: 0;
+    font-weight: 400;
+}
+
+.user-all-det .user-det-block .user-det-row label {
+    margin: 0 35px 0 0;
+    min-width: 15%;
+    font-weight: 600;
+    color: #616161;
+}
+
+.user-all-det .user-det-block .user-det-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.btn-info {
+    background: #52C6D9;
+    /* border-color: #7ae1f1; */
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 25px;
+}
+
+.personal-details-form label{
+    color: #606060;
+    font-weight: 500;
+    font-size: 16px;
+}
+.personal-details-form .form-control {
+    border: none;
+    border: 1px solid #ced4da;
+    background: no-repeat center bottom, center calc(100% - 1px);
+    background-size: 0 100%, 100% 100%;
+    transition: 0s ease-out;
+    border-radius: 4px;
+}
+.personal-details-form textarea{
+    resize: none;
+}
+.resume-file {
+   display: none;
+}
+.personal-details-form label.resume-label {
+    background: #d3d3d3;
+    color: #fff;
+    display: block;
+    padding: 10px 10px;
+    text-align: center;
+}
+.check-in a {
+    background: #52c6d9;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px !important;
+}
+.check-in a p{
+    font-size: 14px;
+}
+.breadcrumb {
+    clear: both;
+}
+.main-todays-date {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+/*****************************
+        SIDE NAV BAR
+*****************************/        
+
+.pcoded-navbar.menu-light a {
+    color: #888888;
+}
+
+/*****************************
+       CSS FOR CHECK IN
+*****************************/   
+
+.main-container{
+    position: relative;
+    clear: both;
+    float: unset;
+    margin-left: 230px;
+    /* min-height: 100vh; */
+    padding-top: 0;
+    display: block;
+    clear: both;
+    float: unset;
+    right: 0;
+    top: 0;
+    transition: all 0.3s ease-in-out;
+    background: #52C6D9;
+    background-image: linear-gradient(to right, #52C6D9, #aeffe6);
+}
+.checkIn-content-container{
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 125px 0px 170px;
+}
+.checkIn-img-wrap{
+    position: relative;
+}
+.checkIn-img-wrap img{
+    height: 275px;
+}
+.checkIn-time{
+    position: absolute;
+    top: 34%;
+    left: 45%;
+    color: #1a1a1a;
+    font-size: 18px;
+    /* font-weight: 600; */
+    letter-spacing: 0px;
+}
+.checkIn-title{
+    color: #1a1a1a;
+    font-size: 17px;
+}
+.checkIn-data{
+    color: #5f5f5f;
+    font-size: 14px;
+}
+.black-btn{
+    border: 1px solid #000;
+    background: #000;
+    color: #FFF;
+    border-radius: 6px;
+    padding: 7px 35px;
+}
+.black-btn:hover{
+    color: #FFF;
+}
+
+.pcoded-navbar .pcoded-inner-navbar li.nav-item.active, .pcoded-navbar .pcoded-inner-navbar li.nav-item:hover{
+    background: #3d3d3d;
+}
+.pcoded-navbar.menu-light .pcoded-inner-navbar > li.active > a,
+.pcoded-navbar.menu-light .pcoded-inner-navbar > li.pcoded-trigger > a{
+    background: #3d3d3d;
+    color: #52C6D9;
+ }
+
+/**************************************************
+       CSS FOR PROFILE DETAILS EDIT
+***************************************************/   
+.profile-details-left{
+    border-right: 1px solid #C5C5C5;
+}
+.user-img{
+    position: relative;
+}
+.user-img img{
+    height: 110px;
+}
+.profile-add{
+    width: 30px;
+    position: absolute;
+    border: 1px dashed #109FD5;
+    border-radius: 50%;
+    right: 26%;
+    bottom: 1%;
+    padding: 5px;
+    height: 30px;
+}
+.profile-add i{
+    font-size: 12px;
+    color: #FFF;
+    background: #109FD5;
+    padding: 5px;
+    border-radius: 50%;
+    margin-left: -1.5px;
+    margin-top: -2px;
+    vertical-align: top;
+}
+.edit-form-wrap{
+    clear: both;
+}
+.form-dropDown{
+    width: 100%;
+    height: 35px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: solid 1px #cccccc;
+    text-align: left;
+    padding: 5px 15px;
+    color: #505050;
+    letter-spacing: 0.7px;
+    font-size: 12px;
+}
+.form-lable{
+    color: #606060;
+    font-size: 11px;
+    margin-bottom: 3px;
+}
+.form-caret {
+    float: right;
+    margin-top: 9px;
+    display: block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+.dropdown-menu.form-dropDown-menu li:hover{
+    background-color: #FFF;
+    box-shadow: none;
+    color: #666;
+    font-size: 14px;
+}
+.dropdown-menu.form-dropDown-menu li:first-child:hover{
+    border-top: none;
+}
+.dropdown-menu {
+    width: 240px;
+    padding: 0;
+    margin: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.dropdown button:hover, .dropdown button:focus {
+    outline: 0;
+}
+
+.dropdown.open button.form-dropDown {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.23);
+    border: solid 1px #666;
+    border-bottom: none;
+}
+
+.dropdown.open ul {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.23);
+    border: solid 1px #666;
+    border-top: none;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.dropdown-menu li {
+    line-height: 1.5;
+    letter-spacing: 0.7px;
+    color: #666;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 7.5px 15px;
+    border-top: solid 1px #f3f3f3;
+}
+.dropdown-menu li:hover {
+    background-color: #ccc;
+}
+.input-text-feild{
+    border: 1px solid #C5C5C5;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%;
+    font-size: 12px;
+    height: 35px;
+}
+.btn-secondary-form{
+    float: right;
+    border: 1px solid #C8C8C8;
+    border-radius: 3px;
+    padding: 5px 15px;
+    color: #B8B8B8;
+    font-size: 16px;
+}
+.input-multitext-feild{
+    border: 1px solid #C5C5C5;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 12px;
+    color: #606060;
+    text-align: left;
+    padding: 15px;
+}
+.employee-count{
+    color: #6C6C6C;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 9px;
+}
+.btn-gray{
+    color: #fff;
+    background: #AFAFAF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 12px;
+}
+.btn-gray:hover{
+    color: #FFF;
+}
+.delete-icon i{
+    vertical-align: bottom;
+    font-size: 14px;
+    color: #7D7D7D;
+}
+.employee-details p{
+    color: #1F1F1F;
+}
+.employee-details p:last-child{
+    opacity: 0.6;
+    font-size: 10px;
+}
+.gray-circle{
+    background: #EDEDED 0% 0% no-repeat padding-box;
+    border: 1px solid #D6D6D6;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5px;
+}
+.table-search.form-control-feedback{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    line-height: 2.275rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    padding-left: 12px;
+}
+.table-search-wrap .form-control{
+    border: 1px solid #D7D7D7;
+    padding: 0px 5px 0px 35px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.password-icon{
+    position: absolute;
+    right: 30px;
+    top: 28px;
+    opacity: 0.5;
+}
+.calenderIcon{
+    position: absolute;
+    right: 23px;
+    top: 28px;
+    opacity: 0.6;
+}
+
+/**************************************************
+       CSS FOR EMPLOYEE DETAILS EDIT
+***************************************************/ 
+.taskTab-item{
+    border: 1px solid #DCDCDC;
+    background: #ffff;
+    border-radius: 2px 0px 0px 0px;
+}
+.taskTab.nav-pills .taskTab-item .nav-link.active{
+    background-color: #F5F5F5;
+    color: #000000;
+    border-bottom: 3px solid #109FD5;
+    border-radius: 0;
+}
+.taskTab.nav-pills .taskTab-item .nav-link{
+    color: #000000;
+    font-size: 12px;
+}
+.task-tab-content{
+    border: 1px solid #D7D7D7;
+    border-radius: 0px 3px 3px 3px;
+}
+.task-btn-wrap{
+    margin-top: 18px;
+}
+.task-shareIcon{
+    float: right;
+    font-size: 25px;
+    color: #52C6D9;
+    float: right;
+}
+.btn-blue-secondary{
+    border: 1px solid #52C6D9;
+    color: #52C6D9;
+    padding: 7px 15px;
+    float: right;
+}
+.btn-blue-secondary:hover{
+    color: #52C6D9;
+}
+
+/**************************************************
+       CSS FOR EMPLOYEE BIRTHDAY
+***************************************************/ 
+.birthday-details h5{
+    text-transform: uppercase;
+    color: #43425D;
+}
+.birthdat-img-wrap img{
+    height: 50px;
+    border-radius: 10px;
+}
+.birthday-header-wrap{
+    background-color: #FFEBEF;
+}
+.birthday-list-container{
+    background-color: #FCDDE2;
+}
+.birthday-table-container, .table-birthday thead th{
+    background: #FFF;
+}
+.btn-red-secondary{
+    border: 1px solid #EBCDB6;
+    border-radius: 3px;
+    color: #000;
+    padding: 5px 15px;
+}
+.month-dropDown{
+    background: #FFEBEF 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    border: none;
+    padding: 5px 15px;
+    font-size: 12px;
+}
+.today-birthday{
+    font-family: 'Dancing Script', cursive;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 25px;
+    margin-bottom: 0;
+    background: transparent linear-gradient(90deg, #FFAB3F 0%, #DF9337 1%, #B4722D 4%, #925825 6%, #7A461F 8%, #6C3A1C 10%, #67371B 12%, #78491E 17%, #926324 22%, #966928 24%, #A17B33 25%, #B49947 27%, #CFC362 29%, #F1F884 31%, #F5FE88 31%, #EFEF7C 32%, #E3CC60 33%, #D9B04B 34%, #D29D3C 36%, #CE9133 37%, #CD8E30 38%, #D79C39 42%, #F3C352 48%, #FFD25C 50%, #F5C452 51%, #E5AE44 51%, #D99D39 52%, #D19131 53%, #CC8A2D 55%, #CB892C 58%, #CD8E30 61%, #D39F3D 64%, #DCBA53 68%, #EAE071 73%, #F5FE88 75%, #F1F682 78%, #E7E373 81%, #D6C25B 86%, #BF953A 90%, #B4802A 92%, #B5812B 96%, #B98831 97%, #C1943B 98%, #CCA54A 98%, #DABB5D 99%, #EBD574 100%, #FFF48F 100%) 0% 0% no-repeat padding-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pcoded-navbar .pcoded-inner-navbar li.pcoded-hasmenu .pcoded-submenu.show-subMenu{
+    display: block;
+}
+.pcoded-navbar.navbar-collapsed:not(:hover) .pcoded-inner-navbar > li.active > a,
+.pcoded-navbar.navbar-collapsed:not(:hover) .pcoded-inner-navbar > li.pcoded-trigger > a {
+    width: 70px;
+    /* width: calc(70px - 20px); */
+}
+.pcoded-navbar.navbar-collapsed:not(:hover) .pcoded-inner-navbar > li.active,
+.pcoded-navbar.navbar-collapsed:not(:hover) .pcoded-inner-navbar > li.pcoded-trigger {
+    width: 70px;
+    /* width: calc(70px - 20px); */
+}
