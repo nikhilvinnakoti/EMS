@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-attendence-list',
   templateUrl: './attendence-list.component.html',
-  styleUrls: ['./attendence-list.component.css']
+  styleUrls: ['../../assets/css/style.css','../../assets/css/custom.css']
 })
 export class AttendenceListComponent implements OnInit {
 
