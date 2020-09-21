@@ -12,7 +12,8 @@ import { PersonalDetailsBankComponent } from './personal-details-bank/personal-d
 import { PersonalDetailsEditComponent } from './personal-details-edit/personal-details-edit.component';
 import { PersonalDetailsQualificationComponent } from './personal-details-qualification/personal-details-qualification.component';
 import { TaskDetailsComponent } from './task-details/task-details.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+
+import { PersonalDetailsComponent } from './personal-details/personal-details.component';
 
 @NgModule({
   declarations: [
@@ -23,12 +24,13 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     ChangePasswordComponent,
     routingComponents,
     CheckoutComponent,
-    CheckoutSuccessComponent, 
+    CheckoutSuccessComponent,
+    PersonalDetailsComponent,
     PersonalDetailsBankComponent,
     PersonalDetailsEditComponent,
     PersonalDetailsQualificationComponent,
     TaskDetailsComponent,
-    PageNotFoundComponent
+    
 
   ],
   imports: [

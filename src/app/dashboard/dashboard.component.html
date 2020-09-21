@@ -22,17 +22,17 @@
 			<div class="navbar-content scroll-div " >
 				<ul class="nav pcoded-inner-navbar ">
 					<li class="nav-item active">
-					    <a href="" class="nav-link ">
+					    <a routerLink="/dashboard" class="nav-link ">
                             <span class="pcoded-micon"><i class="feather icon-home"></i></span>
                             <span class="pcoded-mtext">Dashboard</span>
                         </a>
 					</li>
 					<li class="nav-item pcoded-hasmenu">
-					    <a href="#!" class="nav-link ">
+					    <a class="nav-link ">
                             <span class="pcoded-micon">
                                 <i class="far fa-user"></i>
                             </span>
-                            <a routerLink="/personal-details"><span class="pcoded-mtext">Personal Details</span></a>
+                            <span class="pcoded-mtext">Personal Details</span>
                         </a>
 					    <ul class="pcoded-submenu">
 					        <li><a href="">Profile</a></li>
@@ -176,9 +176,9 @@
                             <p class="chk-time d-inline-block">Todays Check In time: 9.30 AM</p>
                         </li>
                         <li class="nav-item mr-4 check-in">
-                            <a href="">
+                            <a routerLink="/checkin">
                                 <i class="feather icon-log-in mr-2"></i>
-                                <p class="todays-date d-inline-block">Check In</p>
+                                <span  class="todays-date d-inline-block">Check In</span>
                             </a>  
                         </li>
                         <!-- <li class="nav-item mr-4 check-out">
