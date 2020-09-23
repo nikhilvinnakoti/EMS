@@ -26,13 +26,13 @@
 			<div class="navbar-content scroll-div " >
 				<ul class="nav pcoded-inner-navbar ">
 					<li class="nav-item">
-					    <a href="#" class="nav-link ">
+					    <a routerLink="/dashboard" class="nav-link ">
 							<span class="pcoded-micon"><i class="feather icon-home"></i></span>
 							<span class="pcoded-mtext">Dashboard</span>
 						</a>
 					</li>
 					<li class="nav-item pcoded-hasmenu">
-					    <a href="#" class="nav-link ">
+					    <a  class="nav-link ">
                             <span class="pcoded-micon">
                                 <i class="far fa-user"></i>
                             </span>
@@ -58,7 +58,7 @@
 					    </ul>
                     </li> -->
                     <li class="nav-item pcoded-hasmenu">
-					    <a href="#!" class="nav-link ">
+					    <a class="nav-link ">
                             <span class="pcoded-micon">
                                 <i class="far fa-address-card"></i>
                             </span>
@@ -71,7 +71,7 @@
 					    </ul> 
 					</li>
 					<li class="nav-item pcoded-hasmenu">
-					    <a href="#!" class="nav-link ">
+					    <a  class="nav-link ">
                             <span class="pcoded-micon">
                                 <i class="far fa-user-circle"></i>
                             </span>
@@ -84,7 +84,7 @@
 					    </ul>
                     </li>
                     <li class="nav-item pcoded-hasmenu">
-					    <a href="#!" class="nav-link ">
+					    <a class="nav-link ">
                             <span class="pcoded-micon">
                                 <i class="fab fa-codepen"></i>
                             </span>
@@ -97,7 +97,7 @@
 					    </ul> 
 					</li>
 					<li class="nav-item pcoded-hasmenu">
-					    <a href="#!" class="nav-link ">
+					    <a  class="nav-link ">
                             <span class="pcoded-micon">
                                 <i class="fas fa-birthday-cake"></i>
                             </span>
@@ -110,7 +110,7 @@
 					    </ul>
                     </li>
                     <li class="nav-item pcoded-hasmenu">
-					    <a href="#!" class="nav-link ">
+					    <a  class="nav-link ">
                             <span class="pcoded-micon">
                                 <i class="far fa-calendar-alt"></i>
                             </span>
@@ -123,7 +123,7 @@
 					    </ul>
                     </li>
                     <li class="nav-item pcoded-hasmenu">
-					    <a href="#!" class="nav-link ">
+					    <a  class="nav-link ">
                             <span class="pcoded-micon">
                                 <i class="fab fa-wikipedia-w"></i>
                             </span>
@@ -145,8 +145,8 @@
 		
 			
 				<div class="m-header">
-					<a class="mobile-menu" id="mobile-collapse" href="#!"><span></span></a>
-					<a href="#!" class="b-brand">
+					<a class="mobile-menu" id="mobile-collapse" ><span></span></a>
+					<a  class="b-brand">
 						<!-- ========   change your logo hear   ============ -->
 						<img src="assets/images/logo.svg" alt="Infogen Labs Logo" class="logo">
 						<img src="assets/images/logo-icon.png" alt="" class="logo-thumb">
@@ -180,12 +180,12 @@
                             <p class="chk-time d-inline-block">Todays Check In time: 9.30 AM</p>
 						</li>
 						
-						<li class="nav-item mr-4 check-in">
+						<!-- <li class="nav-item mr-4 check-in">
                             <a href="">
                                 <i class="feather icon-log-in mr-2"></i>
                                 <p class="todays-date d-inline-block">Check In</p>
                             </a>  
-                        </li>
+                        </li> -->
 						<!-- <li class="nav-item mr-4 check-out">
                             <a href="">
                                 <i class="feather icon-log-out mr-2"></i>
@@ -293,7 +293,7 @@
                                         </div>
                                         <div class="row text-left mt-4">
                                             <div class="col-sm-12">
-                                                <button class="btn btn-info pr-5 pl-5">Save & Check Out</button>
+                                                <a routerLink="/checkout-success"><button class="btn btn-info pr-5 pl-5">Save & Check Out</button></a>
                                             </div>
                                         </div>
                                     </div>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit(): void {
+  constructor(private router: Router) {
+  
+   }
+   ngOnInit(): void {
   }
-
+  refresh(){
+    this.router.navigate(['/dashboard'])
+    .then(() => {
+      window.location.reload();
+    });
+  }
+  
 }

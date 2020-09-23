@@ -10,6 +10,13 @@ export class DashboardComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    
+    
   }
+  refresh(): void {
+    window.location.reload();
+}
+
+  
 
 }

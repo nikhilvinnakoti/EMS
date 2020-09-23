@@ -12,7 +12,10 @@
     <meta name="keywords" content="">
     <meta name="author" content="Phoenixcoded" />
     
-
+    
+<!-- 
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom.css"> -->
 
 </head>
 
@@ -42,10 +45,10 @@
                                 <label class="custom-control-label" for="customCheck1">Remember me</label>
                             </div>
                             <div class="forgot-pass ml-auto d-block">
-                                <a href="#" class="">Forgot Password?</a>
+                                <a class="">Forgot Password?</a>
                             </div>
                         </div>
-                        <a routerLink="/dashboard"><button type="submit" class="btn btn-info btn-block">Sign in</button></a>
+                        <button type="submit" class="btn btn-info btn-block" (click)="refresh()">Sign in</button>
 
                         <!-- <div class="sign-up">
                             Don't have an account? <a href="#">Create One</a>
