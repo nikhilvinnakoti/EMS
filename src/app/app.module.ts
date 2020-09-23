@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { AttendenceListComponent } from './attendence-list/attendence-list.component';
 import { BirthdayComponent } from './birthday/birthday.component';
 import { ChangePasswordComponent } from './change-password/change-password.component';
+import { TaskDetailsComponent } from './task-details/task-details.component';
 
 
 
@@ -15,6 +16,7 @@ import { ChangePasswordComponent } from './change-password/change-password.compo
     AttendenceListComponent,
     BirthdayComponent,
     ChangePasswordComponent,
+    TaskDetailsComponent
     
     
   ],
