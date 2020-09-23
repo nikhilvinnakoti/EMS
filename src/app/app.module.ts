@@ -8,6 +8,8 @@ import { ChangePasswordComponent } from './change-password/change-password.compo
 import { TaskDetailsComponent } from './task-details/task-details.component';
 
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +17,13 @@ import { TaskDetailsComponent } from './task-details/task-details.component';
     AttendenceListComponent,
     BirthdayComponent,
     ChangePasswordComponent,
+ master
     TaskDetailsComponent
+
+    
+    
+    
+
   ],
   imports: [
     BrowserModule,

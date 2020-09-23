@@ -25,7 +25,7 @@
 			<div class="navbar-content scroll-div " >
 				<ul class="nav pcoded-inner-navbar ">
 					<li class="nav-item active">
-					    <a routerLink="/dashboard" class="nav-link ">
+					    <a href="/dashboard" class="nav-link ">
                             <span class="pcoded-micon"><i class="feather icon-home"></i></span>
                             <span class="pcoded-mtext">Dashboard</span>
                         </a>
@@ -213,7 +213,7 @@
             <div class="checkIn-data">
                 <p class="checkIn-title mt-4 mb-2">Welcome To Your Desk Rohan</p>
                 <p class="checkIn-data">Check In and start your work day</p>
-                <a href="/checkout"><button class="btn mt-3 black-btn">Check In</button></a>
+                <button class="btn mt-3 black-btn" (click)="refresh()">Check In</button>
             </div>
         </div>
 </div>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-add-tasks-to-checkout',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AddTasksToCheckoutComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+  }
+  refresh(){
+    this.router.navigate(['/checkout-success'])
+    .then(() => {
+      window.location.reload();
+    });
   }
 
 }
