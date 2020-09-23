@@ -7,29 +7,21 @@ import { BirthdayComponent } from './birthday/birthday.component';
 import { ChangePasswordComponent } from './change-password/change-password.component'
 import { TaskDetailsComponent } from './task-details/task-details.component';
 
-
-
-
 @NgModule({
   declarations: [
-    AppComponent,
-    routingComponents,
     AttendenceListComponent,
     BirthdayComponent,
     ChangePasswordComponent,
- master
     TaskDetailsComponent
-
     
-    
-    
-
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+  
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+ 
 })
 export class AppModule { }
