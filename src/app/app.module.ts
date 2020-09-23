@@ -9,6 +9,8 @@ import { TaskDetailsComponent } from './task-details/task-details.component';
 
 @NgModule({
   declarations: [
+    AppComponent,
+    routingComponents,
     AttendenceListComponent,
     BirthdayComponent,
     ChangePasswordComponent,

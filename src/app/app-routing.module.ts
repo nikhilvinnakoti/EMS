@@ -11,11 +11,7 @@ import { PersonalDetailsBankComponent } from './personal-details-bank/personal-d
 import { PersonalDetailsEditComponent } from './personal-details-edit/personal-details-edit.component';
 import { PersonalDetailsQualificationComponent } from './personal-details-qualification/personal-details-qualification.component';
 
-
-
-
 const routes: Routes = [
-
   {path:'',redirectTo:'/login',pathMatch:'full'},
   {path:'login',component:LoginComponent},
   {path:'dashboard',component: DashboardComponent},
@@ -28,15 +24,7 @@ const routes: Routes = [
   {path: 'bank-details', component: PersonalDetailsBankComponent},
   {path: 'qualification-details',component:PersonalDetailsQualificationComponent}
 
-    { path: '', redirectTo: '/login', pathMatch: 'full' },
-    { path: 'login', component: LoginComponent },
-    { path: 'dashboard', component: DashboardComponent },
-    { path: 'checkin', component: CheckinComponent },
-    { path: 'checkout', component: CheckoutComponent },
-    { path: 'add-tasks-to-checkout', component: AddTasksToCheckoutComponent },
-    { path: 'checkout-success', component: CheckoutSuccessComponent },
-
-];
+]
 
 @NgModule({
     imports: [RouterModule.forRoot(routes)],
@@ -47,6 +35,4 @@ export class AppRoutingModule { }
 export const routingComponents  = [LoginComponent,DashboardComponent,CheckinComponent,CheckoutComponent,AddTasksToCheckoutComponent,CheckoutSuccessComponent
 ,PersonalDetailsComponent,PersonalDetailsEditComponent,PersonalDetailsBankComponent,PersonalDetailsQualificationComponent]
 
-export const routingComponents = [LoginComponent,DashboardComponent,CheckinComponent,CheckoutComponent,AddTasksToCheckoutComponent,CheckoutSuccessComponent 
-    ,]
 
