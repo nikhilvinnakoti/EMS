@@ -7,6 +7,7 @@ import { BirthdayComponent } from './birthday/birthday.component';
 import { ChangePasswordComponent } from './change-password/change-password.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,6 +15,7 @@ import { ChangePasswordComponent } from './change-password/change-password.compo
     AttendenceListComponent,
     BirthdayComponent,
     ChangePasswordComponent,
+    
     
   ],
   imports: [

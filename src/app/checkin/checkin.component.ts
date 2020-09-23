@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-checkin',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CheckinComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) {}
+
 
   ngOnInit(): void {
+  }
+  refresh(){
+    this.router.navigate(['/checkout'])
+    .then(() => {
+      window.location.reload();
+    });
   }
 
 }
