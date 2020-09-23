@@ -6,10 +6,7 @@ import { CheckoutSuccessComponent } from './checkout-success/checkout-success.co
 import { CheckoutComponent } from './checkout/checkout.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginComponent } from './login/login.component';
-import { PersonalDetailsComponent } from './personal-details/personal-details.component';
-import { PersonalDetailsBankComponent } from './personal-details-bank/personal-details-bank.component';
-import { PersonalDetailsEditComponent } from './personal-details-edit/personal-details-edit.component';
-import { PersonalDetailsQualificationComponent } from './personal-details-qualification/personal-details-qualification.component';
+
 
 
 
@@ -22,10 +19,7 @@ const routes: Routes = [
     { path: 'checkout', component: CheckoutComponent },
     { path: 'add-tasks-to-checkout', component: AddTasksToCheckoutComponent },
     { path: 'checkout-success', component: CheckoutSuccessComponent },
-    { path: 'personal-details', component: PersonalDetailsComponent },
-    { path: 'edit-details', component: PersonalDetailsEditComponent },
-    { path: 'bank-details', component: PersonalDetailsBankComponent },
-    { path: 'qualification-details', component: PersonalDetailsQualificationComponent }
+   
 ];
 
 @NgModule({
@@ -34,4 +28,4 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 export const routingComponents = [LoginComponent,DashboardComponent,CheckinComponent,CheckoutComponent,AddTasksToCheckoutComponent,CheckoutSuccessComponent 
-    ,PersonalDetailsComponent, PersonalDetailsEditComponent, PersonalDetailsBankComponent, PersonalDetailsQualificationComponent]
+    ,]
