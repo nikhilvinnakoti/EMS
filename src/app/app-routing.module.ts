@@ -10,7 +10,7 @@ import { PersonalDetailsComponent } from './personal-details/personal-details.co
 import { PersonalDetailsBankComponent } from './personal-details-bank/personal-details-bank.component';
 import { PersonalDetailsEditComponent } from './personal-details-edit/personal-details-edit.component';
 import { PersonalDetailsQualificationComponent } from './personal-details-qualification/personal-details-qualification.component';
-
+import { TaskDetailsComponent } from './task-details/task-details.component';
 
 
 
@@ -26,16 +26,8 @@ const routes: Routes = [
   {path: 'personal-details',component: PersonalDetailsComponent},
   {path: 'edit-details', component: PersonalDetailsEditComponent},
   {path: 'bank-details', component: PersonalDetailsBankComponent},
-  {path: 'qualification-details',component:PersonalDetailsQualificationComponent}
-
-    { path: '', redirectTo: '/login', pathMatch: 'full' },
-    { path: 'login', component: LoginComponent },
-    { path: 'dashboard', component: DashboardComponent },
-    { path: 'checkin', component: CheckinComponent },
-    { path: 'checkout', component: CheckoutComponent },
-    { path: 'add-tasks-to-checkout', component: AddTasksToCheckoutComponent },
-    { path: 'checkout-success', component: CheckoutSuccessComponent },
-
+  {path: 'qualification-details',component:PersonalDetailsQualificationComponent},
+  {path: 'task-details' , component:TaskDetailsComponent}
 ];
 
 @NgModule({
@@ -45,8 +37,5 @@ const routes: Routes = [
 export class AppRoutingModule { }
 
 export const routingComponents  = [LoginComponent,DashboardComponent,CheckinComponent,CheckoutComponent,AddTasksToCheckoutComponent,CheckoutSuccessComponent
-,PersonalDetailsComponent,PersonalDetailsEditComponent,PersonalDetailsBankComponent,PersonalDetailsQualificationComponent]
-
-export const routingComponents = [LoginComponent,DashboardComponent,CheckinComponent,CheckoutComponent,AddTasksToCheckoutComponent,CheckoutSuccessComponent 
-    ,]
+,PersonalDetailsComponent,PersonalDetailsEditComponent,PersonalDetailsBankComponent,PersonalDetailsQualificationComponent,TaskDetailsComponent]
 

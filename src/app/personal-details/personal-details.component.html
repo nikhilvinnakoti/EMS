@@ -22,7 +22,7 @@
 			<div class="navbar-content scroll-div " >
 				<ul class="nav pcoded-inner-navbar ">
 					<li class="nav-item">
-					    <a href="#" class="nav-link "><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Dashboard</span></a>
+					    <a href="/dashboard" class="nav-link "><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Dashboard</span></a>
 					</li>
 					<li class="nav-item pcoded-hasmenu">
 					    <a  class="nav-link ">
@@ -32,7 +32,7 @@
                             <span class="pcoded-mtext">Personal Details</span>
                         </a>
 					    <ul class="pcoded-submenu">
-					        <li><a (click)="refresh1()">Profile</a></li>
+					        <li><a href="/personal-details">Profile</a></li>
                             <li><a href="/bank-details">Bank Details</a></li>
                             <li><a href="/qualification-details">Qualification Details</a></li>
 					    </ul> 
@@ -51,7 +51,7 @@
 					    </ul>
                     </li> -->
                     <li class="nav-item pcoded-hasmenu">
-					    <a href="#!" class="nav-link ">
+					    <a class="nav-link ">
                             <span class="pcoded-micon">
                                 <i class="far fa-address-card"></i>
                             </span>
@@ -59,12 +59,12 @@
                         </a>
 					    <ul class="pcoded-submenu">
 					        <li><a href="">Daily Attendance</a></li>
-					        <li><a href="">Tasks</a></li>
+					        <li><a href="/task-details">Tasks</a></li>
 					        <li><a href="">Leaves</a></li>
 					    </ul> 
 					</li>
 					<li class="nav-item pcoded-hasmenu">
-					    <a href="#!" class="nav-link ">
+					    <a class="nav-link ">
                             <span class="pcoded-micon">
                                 <i class="far fa-user-circle"></i>
                             </span>
@@ -77,7 +77,7 @@
 					    </ul>
                     </li>
                     <li class="nav-item pcoded-hasmenu">
-					    <a href="#!" class="nav-link ">
+					    <a class="nav-link ">
                             <span class="pcoded-micon">
                                 <i class="fab fa-codepen"></i>
                             </span>
@@ -90,7 +90,7 @@
 					    </ul> 
 					</li>
 					<li class="nav-item pcoded-hasmenu">
-					    <a href="#!" class="nav-link ">
+					    <a class="nav-link ">
                             <span class="pcoded-micon">
                                 <i class="fas fa-birthday-cake"></i>
                             </span>
@@ -103,7 +103,7 @@
 					    </ul>
                     </li>
                     <li class="nav-item pcoded-hasmenu">
-					    <a href="#!" class="nav-link ">
+					    <a class="nav-link ">
                             <span class="pcoded-micon">
                                 <i class="far fa-calendar-alt"></i>
                             </span>
@@ -116,7 +116,7 @@
 					    </ul>
                     </li>
                     <li class="nav-item pcoded-hasmenu">
-					    <a href="#!" class="nav-link ">
+					    <a class="nav-link ">
                             <span class="pcoded-micon">
                                 <i class="fab fa-wikipedia-w"></i>
                             </span>
@@ -147,14 +147,14 @@
 						<img src="assets/images/logo.svg" alt="Infogen Labs Logo" class="logo">
 						<img src="assets/images/logo-icon.png" alt="" class="logo-thumb">
 					</a>
-					<a href="#!" class="mob-toggler">
+					<a class="mob-toggler">
 						<i class="feather icon-more-vertical"></i>
 					</a>
 				</div>
 				<div class="collapse navbar-collapse">
 					<ul class="navbar-nav mr-auto">
 						<li class="nav-item">
-							<a href="#!" class="pop-search"><i class="feather icon-search"></i></a>
+							<a  class="pop-search"><i class="feather icon-search"></i></a>
 							<div class="search-bar">
 								<input type="text" class="form-control border-0 shadow-none" placeholder="Search hear">
 								<button type="button" class="close" aria-label="Close">
@@ -175,7 +175,7 @@
                             <p class="chk-time d-inline-block">Todays Check In time: 9.30 AM</p>
                         </li>
                         <li class="nav-item mr-4 check-in">
-                            <a href="">
+                            <a href="/checkin">
                                 <i class="feather icon-log-in mr-2"></i>
                                 <p class="todays-date d-inline-block">Check In</p>
                             </a>  
@@ -231,9 +231,9 @@
 								</div>
                             </div>
                             <ul class="breadcrumb">
-                                <li class="breadcrumb-item"><a href=" "><i class="feather icon-home"></i></a>
+                                <li class="breadcrumb-item"><a href="/dashboard "><i class="feather icon-home"></i></a>
                                 </li>
-                                <li class="breadcrumb-item"><a href="#!">Personal Details</a></li>
+                                <li class="breadcrumb-item"><a >Personal Details</a></li>
                             </ul>
                         </div>
                     </div>
@@ -305,7 +305,7 @@
                                             </div>
                                         </div>
                                         <div class="mt-4">
-                                            <a routerLink ="/edit-details"> <button class="btn btn-info pl-5 pr-5">
+                                            <a href ="/edit-details"> <button class="btn btn-info pl-5 pr-5">
                                                  Edit  
                                             </button></a>  
                                         </div>
