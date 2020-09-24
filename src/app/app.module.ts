@@ -6,6 +6,9 @@ import { AttendenceListComponent } from './attendence-list/attendence-list.compo
 import { BirthdayComponent } from './birthday/birthday.component';
 import { ChangePasswordComponent } from './change-password/change-password.component'
 import { TaskDetailsComponent } from './task-details/task-details.component';
+import {  NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 @NgModule({
   declarations: [
@@ -20,6 +23,9 @@ import { TaskDetailsComponent } from './task-details/task-details.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    NgbModule,
+    BrowserAnimationsModule,
+   
   
   ],
   providers: [],
