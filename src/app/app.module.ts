@@ -9,24 +9,20 @@ import { TaskDetailsComponent } from './task-details/task-details.component';
 import {  NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-
 @NgModule({
   declarations: [
     AppComponent,
     routingComponents,
     AttendenceListComponent,
     BirthdayComponent,
-    ChangePasswordComponent,
-    TaskDetailsComponent
-    
-  ],
+
+    ChangePasswordComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     BrowserAnimationsModule,
-   
-  
   ],
   providers: [],
   bootstrap: [AppComponent],
