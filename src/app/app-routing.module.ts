@@ -14,8 +14,8 @@ import { TaskDetailsComponent } from './task-details/task-details.component';
 
 
 
-const routes: Routes = [
 
+const routes: Routes = [
   {path:'',redirectTo:'/login',pathMatch:'full'},
   {path:'login',component:LoginComponent},
   {path:'dashboard',component: DashboardComponent},
@@ -30,6 +30,7 @@ const routes: Routes = [
   {path: 'task-details' , component:TaskDetailsComponent}
 ];
 
+
 @NgModule({
     imports: [RouterModule.forRoot(routes)],
     exports: [RouterModule]
@@ -37,5 +38,7 @@ const routes: Routes = [
 export class AppRoutingModule { }
 
 export const routingComponents  = [LoginComponent,DashboardComponent,CheckinComponent,CheckoutComponent,AddTasksToCheckoutComponent,CheckoutSuccessComponent
+
 ,PersonalDetailsComponent,PersonalDetailsEditComponent,PersonalDetailsBankComponent,PersonalDetailsQualificationComponent,TaskDetailsComponent]
+
 
