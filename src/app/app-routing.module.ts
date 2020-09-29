@@ -11,6 +11,7 @@ import { PersonalDetailsBankComponent } from './personal-details-bank/personal-d
 import { PersonalDetailsEditComponent } from './personal-details-edit/personal-details-edit.component';
 import { PersonalDetailsQualificationComponent } from './personal-details-qualification/personal-details-qualification.component';
 import { TaskDetailsComponent } from './task-details/task-details.component';
+import { AttendenceListComponent } from './attendence-list/attendence-list.component';
 
 
 
@@ -27,7 +28,8 @@ const routes: Routes = [
   {path: 'edit-details', component: PersonalDetailsEditComponent},
   {path: 'bank-details', component: PersonalDetailsBankComponent},
   {path: 'qualification-details',component:PersonalDetailsQualificationComponent},
-  {path: 'task-details' , component:TaskDetailsComponent}
+  {path: 'task-details' , component:TaskDetailsComponent},
+  {path:'attendance-list',component:AttendenceListComponent}
 ];
 
 
@@ -39,6 +41,6 @@ export class AppRoutingModule { }
 
 export const routingComponents  = [LoginComponent,DashboardComponent,CheckinComponent,CheckoutComponent,AddTasksToCheckoutComponent,CheckoutSuccessComponent
 
-,PersonalDetailsComponent,PersonalDetailsEditComponent,PersonalDetailsBankComponent,PersonalDetailsQualificationComponent,TaskDetailsComponent]
+,PersonalDetailsComponent,PersonalDetailsEditComponent,PersonalDetailsBankComponent,PersonalDetailsQualificationComponent,TaskDetailsComponent,AttendenceListComponent]
 
 
